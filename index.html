@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Shop</title>
+  <!-- Required meta tags -->
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap CSS v5.2.1 -->
+
+<body>
+
+  <header>
+    <!-- place navbar here -->
+  </header>
+  <center><div class="main_div">
+    <section class="shopping-cart">
+      <header>
+      <h1 class="h1" id="try">Shopping Cart</h1>
+      <button class="btn">Empty Cart</button>
+    </header>
+    <div style="overflow-x: auto; max-height: 300px; min-height: 200px;">
+      <table >
+          <thead id="thead">
+              <tr>
+                  <th>Image</th>
+                  <th>Name</th>
+                  <th>Price</th>
+                  <th>Qty</th>
+                  <th>Actions</th>
+              </tr>
+              
+          </thead>
+      </table>
+    </div>
+  </section>
+      <header>
+          <h1>Product</h1>
+      </header>
+  
+      <main>
+          <section class="product">
+            <div class="slide fade">
+              <img class="img1" id="img1" src="adidas-samba-og-white-b75806-1.jpg" alt="Shoes">
+            </div>
+            <div class="slide fade">
+              <img class="img1" src="71nHFmokUYL._AC_UL600_SR600,600_.jpg" alt="Shoes">
+            </div>
+              <h2>Shoes</h2>
+              <p>Price: $49.99</p>
+              <button onclick="Func1()" id="btn1">Add to Cart</button>
+          </section>
+  
+          <section class="product">
+            <div class="slide fade">
+              <img id="img2"  src="Smart_Watch_Apple_-_1.69__Watch_Series_8__MNP63RBA__Starlight__1_.jpg" alt="Watch">
+            </div>
+            <div class="slide fade">
+              <img src="watch.jpg" alt="Watch">
+            </div>
+              <h2>Watch</h2>
+              <p>Price: $99.99</p>
+              <button onclick="Func2()" id="btn2">Add to Cart</button>
+          </section>
+  
+          <section class="product">
+            <div class="slideshow-container">
+              <div class="slide fade">
+              <img src="iphone.jpg" alt="Phone">
+              </div>
+              <div class="slideshow-container">
+                <div class="slide fade">
+                  <img class="apple" src="phone.jpg" alt="Phone">
+                  </div>
+  
+              <h2>IPhone</h2>
+              <p>Price: $3000.00</p>
+              <button id="btn3">Add to Cart</button>
+          </section>
+      </main>
+      <div class="navigation">
+        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+      </div>
+  </div></center>
+  <script src="index.js"></script>
+
+
+
+
+  <main>
+
+  </main>
+  <footer>
+    <!-- place footer here -->
+  </footer>
+</body>
+
+</html>
